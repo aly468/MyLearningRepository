@@ -2,7 +2,8 @@
 <html>
     <head>
         <title>First Website</title>
-    </head>
+        <link rel="stylesheet" href="style.css"/>
+
         <style>
             table,tr,th,td{
                 border-width: 1px;
@@ -26,74 +27,87 @@
                 background-color: brown;
                 -webkit-text-fill-color: rgb(240, 217, 188);
             }
+            ol{
+                color: brown;
+            }
+            
         </style>
+        
+    </head>
     
     <body>
         <!--Comment-->
-        <p>Hello <br> <!--Break Tag--> World</p> 
-        <a href="firstwebsite.html" 
-        target="_self">FirstWEb</a> <br>
+
+        <h1>Hello World</h1>
+
+        <!-- <br> Break Tag-->
+        
+        <nav>
         <a href="home.html" target="_self">Home</a> <br>
+        <a href="display.html" target="_self">Display</a> <br>
+        <a href="BoxShadow.html" target="_self">Box Shadow</a> <br>
         <a href="https://youtu.be/Z8UnlPpIJN8?si=GCWcHMqhpn1Aqj9p" 
         target="_blank">Girl Boss Vibe Music</a> <br>
-
+        </nav>
         <!--<ol></ol> For Ordered List-->
         <!--<ul></ul> For Unordered List-->
-        <ol>
-            <li><h4><strong>Padaba Taka Music</strong></h4></li>
-            <ul>
-                <audio controls width="200"> 
-                <source src ="Music/Padaba Taka.mp3"/> 
-                </audio>
-            </ul>
-            <li><h4><strong>Mahika Music Video</strong></h4></li>
-            <ul>
-                <video controls width="400">
-                <source src ="Videos/Mahika.mp4"/>
-                </video>
-            </ul>
-            <li><h4><strong>Sunset</strong></h4></li>
-            <ul>
-            <a href="https://en.wikipedia.org/wiki/Sunset" 
-            target="_blank">
-            <img src="Photos/sunset.jpg" width="200"/>
-            </a>
-            </ul>
-        </ol>
+        <section>
+            <ol>
+                <li><h4><strong>Padaba Taka Music</strong></h4></li>
+                <ul>
+                    <audio controls width="200"> 
+                    <source src ="Music/Padaba Taka.mp3"/> 
+                    </audio>
+                </ul>
+                <li><h4><strong>Mahika Music Video</strong></h4></li>
+                <ul>
+                    <video controls width="400">
+                    <source src ="Videos/Mahika.mp4"/>
+                    </video>
+                </ul>
+                <li><h4><strong>Sunset</strong></h4></li>
+                <ul>
+                <a href="https://en.wikipedia.org/wiki/Sunset" 
+                target="_blank">
+                <img src="Photos/sunset.jpg" width="200"/>
+                </a>
+                </ul>
+            </ol>
 
-        <!--Table-->
-        <h4><strong>Table</strong></h4>
-        <ul>
-        <table>
-            <caption>Grades</caption>
-                <thead>
-                    <tr>
-                        <th rowspan="2">Names</th>
-                        <th colspan="5">Subjects</th>
-                    </tr>
-                    <tr>
-                        <td>C++</td>
-                        <td>Java</td>
-                        <td>HTML</td>
-                        <td>CSS</td>
-                        <td>JavaScript</td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Jaymar</td>
-                        <td>92</td>
-                        <td>94</td>
-                        <td>94</td>
-                        <td>94</td>
-                        <td>94</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <td colspan="6">...</td>
-                </tfoot>
-        </table>
-        </ul>
+            <!--Table-->
+            <h4><strong>Table</strong></h4>
+            <ul>
+            <table>
+                <caption>Grades</caption>
+                    <thead>
+                        <tr>
+                            <th rowspan="2">Names</th>
+                            <th colspan="5">Subjects</th>
+                        </tr>
+                        <tr>
+                            <td>C++</td>
+                            <td>Java</td>
+                            <td>HTML</td>
+                            <td>CSS</td>
+                            <td>JavaScript</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Jaymar</td>
+                            <td>92</td>
+                            <td>94</td>
+                            <td>94</td>
+                            <td>94</td>
+                            <td>94</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <td colspan="6">...</td>
+                    </tfoot>
+            </table>
+            </ul>
+        </section>
 
         <!--
         <h4><strong>Freepik</strong></h4>

@@ -1,0 +1,37 @@
+body{
+    background: center center / 100% 100% url('Photos/PinkFlowerBackground.jpg') no-repeat;
+    /*background-color: rgba(225, 185, 228, 0.924);
+    background-image: url('Photos/PinkFlowerBackground.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center 0%;*/
+    text-shadow: 1px 1px 2px white;
+    font-weight: bold;
+}
+h1{
+    font-size: 5vw;
+    font-variant: small-caps;
+    color: rgba(78, 22, 22, 0.854);
+}
+a{
+    color: rgba(35, 13, 126, 0.694);
+}
+h4{
+    color: brown;
+}
+input{
+    background-color: beige;
+    transition: 0.2s;
+}
+input:focus{
+    border: 2px solid red;
+    outline: none;
+    background-color: rgb(255, 147, 233);
+}
+input:hover{
+    background-color: rgb(170, 81, 244);
+}
+input:active{
+    background-color: brown;
+}
