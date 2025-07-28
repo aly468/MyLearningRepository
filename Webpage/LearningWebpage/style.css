@@ -13,12 +13,27 @@ h1{
     font-size: 5vw;
     font-variant: small-caps;
     color: rgba(78, 22, 22, 0.854);
+    display: inline-block;
+    background-color: rgba(240, 217, 201, 0.478);
 }
 a{
     color: rgba(35, 13, 126, 0.694);
+    text-decoration: none;
+    margin: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17.5px;
+    transition: 1s;
+    background-color: rgba(240, 217, 201, 0.72);
+}
+a:hover{
+    color: rgba(255, 183, 0, 0.955);
+    background-color: rgba(72, 9, 123, 0.789);
 }
 h4{
     color: brown;
+    display: inline-block;
+    margin: 25px;
+    background-color: rgba(240, 217, 201, 0.478);
 }
 input{
     background-color: beige;
@@ -34,4 +49,15 @@ input:hover{
 }
 input:active{
     background-color: brown;
+}
+footer{
+    margin: 15px;
+}
+.signature{
+    background-color: rgba(233, 57, 168, 0.523);
+    -webkit-text-fill-color: rgb(58, 0, 125);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0;
 }
