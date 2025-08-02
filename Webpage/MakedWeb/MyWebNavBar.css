@@ -3,8 +3,9 @@ body{
 }
 nav{
     /*F99584*/
+    height: 48px;
     background-color: #000080;
-    padding: 15px 25px;
+    padding: 8px 15px;
     box-shadow: 0 0 5px 3px rgba(0,0,0,0.5);
 }
 .LogoTitle{
@@ -13,16 +14,17 @@ nav{
     color: #F99584;
     font-family: 'Times New Roman', Times, serif;
     position: relative;
-    top: -15px;
-    left: 15px;
+    top: -17px;
+    left: 5px;
 }
 .logo-link{
     display: inline-block;
+    height: 48px;
 }
 .nav-links{
     float: right;
     position: relative;
-    top: 15px;
+    top: 11px;
 }
 .link{
     text-decoration: none;

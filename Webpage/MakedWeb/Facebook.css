@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    background-color: #fff;
+    text-align: center;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+section{
+    height: 521.717px;
+    background: #f2f4f7;
+}
+
+img{
+    margin: 35.5333px auto 0;
+    width: 240px;
+    border: 0px;
+}
+
+.loginBox{
+    text-align: center;
+    margin: 0 auto 80px;
+    width: 396px;
+    height: 303.917px;
+    padding: 0 0 14px 0;
+    background-color: #fff;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #0000001a,0 8px 16px #0000001a;
+}
+
+header{
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+input{
+    margin: 6px 16px;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+}
+
+.Btn{
+    border: none;
+    background-color: #166fe5;
+    margin: 6px 16px;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 750;
+    -webkit-text-fill-color: #fff;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 365px;
+}
+
+.linkContainer{
+    margin: 12px auto 18px;
+}
+
+.linkAcc{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.linkAcc:hover{
+    text-decoration: underline;
+}
+
+.lowerSpace{
+    margin: 0;
+    width: 751.5px;
+    height: 127.283px;
+}
+
+.additionalSetting{
+    margin: 0 auto;
+    padding-top: 20px;
+    height: 174.117px;
+    text-align: justify;
+    max-width: 1002px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.link{
+    margin-right: 8px;
+    font-size: 12px;
+    color: #737373;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.moreLanguage{
+    font-weight: 500;
+    line-height: 12px;
+    color: #484b4eef;
+}
+
+.border{
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+}
+
+.linkFeature{
+    display: inline-block;
+    padding-right: 14px;
+    position: relative;
+    font-size: 12px;
+    color: #737373;
+    text-decoration: none;
+}
+
+.linkFeature:hover{
+    text-decoration: underline;
+}
+
+.endText{
+    font-size: 11px;
+    color: #737373;
+}
+
+    
